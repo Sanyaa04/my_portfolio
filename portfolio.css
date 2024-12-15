@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+header{
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid rgb(13, 12, 14);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    padding-right: 25px;
+    background-color: rgb(141, 97, 154);
+
+}
+
+.navdiv ul{
+    display: flex;
+}
+.navdiv li{
+    list-style: none;
+    margin: 30px 25px 20px 25px; 
+}
+.navdiv li a{
+    color: rgb(13, 12, 12);
+    font-size: 19px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 9px;
+    font-size: x-large;
+}
+a:hover{
+    width: 5px;
+    background-color: #dccfdc;
+    border: 1px solid #dccfdc;
+    border-radius: 20px;
+    transition: height 0.3s ease;
+}
+#home{
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 490px;;
+}
+#img{
+    padding-top: 80px;
+    width: 40%;
+    height: 500px;
+    
+}
+
+#image{
+    border: 1px solid black;
+    border-radius: 290%;
+
+}
+.home1{
+    height: 440px;
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-bottom: 2px solid rgb(141, 97, 194);
+}
+#about , #skills,#contact{
+    text-align: center;
+}
+.hi{
+    padding-top: 150px;
+    width: 70%;
+    height: 500px;
+}
+.h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;
+}
+
+.p2{
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+.intro{  
+    width: 80%;
+    height:60%;
+    border-bottom: 2px solid rgb(141, 97, 194);
+   margin-top: 5px;
+   margin-left: 150px;
+   padding-bottom: 40px;
+}
+
+
+.skills1{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 150px;
+    border-bottom: 2px solid rgb(141, 97, 194);
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+
+}
+.lists li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+   
+}
+.p1{
+    margin-top:30px ;
+    font-size: 20px;
+
+}
+.about1{
+    display: flex;
+}
+.h{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.skill1{
+    text-align: center;padding: 40px;
+
+    font-size: larger;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border-bottom: 2px solid rgb(141, 97, 194);
+    text-align: center;
+    width: 80%;
+    padding-bottom: 40px;
+
+}
+.projectss{
+    text-align: center;
+}
+.project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+.contact1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    height: 20%;
+    font-size: larger;
+}
